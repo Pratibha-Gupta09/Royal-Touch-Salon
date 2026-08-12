@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #e9a4ae;
+  --secondary: #121212;
+  --accent: #d4af37;
+  --background: #ffffff;
+  --light-bg: #fff5f7;
+  --text: #333333;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Playfair Display", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
